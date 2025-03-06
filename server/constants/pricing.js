@@ -1,0 +1,2 @@
+export const COST_PER_1M_INPUT_TOKENS = 0.150;
+export const COST_PER_1M_OUTPUT_TOKENS = 0.600;
