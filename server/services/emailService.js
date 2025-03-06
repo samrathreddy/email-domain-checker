@@ -14,8 +14,13 @@ async function updateJsonWithResult(domain, filename = 'email_check_results.json
 // With OpenAI
 async function checkEmailProviderServiceAi(domain) {
   const isAiTemp = await checkEmailProviderAi(domain);
+  console.log(isAiTemp);
   if (isAiTemp === 'true') {
-    await updateJsonWithResult(domain);
+    try{
+      await updateJsonWithResult(domain);
+    }catch(error){
+      console.log(error);
+    }
   }
   return isAiTemp;
 }
