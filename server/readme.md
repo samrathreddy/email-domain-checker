@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Email Domain Checker is a web application that allows users to validate and categorize email addresses using a powerful validation service along with OpenAI integration for Email Provider Detection. The application features a user-friendly interface built with React and Tailwind CSS, and it includes a backend powered by Node.js and Express. Even python module is also build for python specifc email provider detection.
+The Email Domain Checker is a web application that allows users to validate and categorize email addresses by public email, bussiness email, temporary email, disposable email using a powerful validation service along with OpenAI integration for Email Provider Detection. The application features a user-friendly interface built with React and Tailwind CSS, and it includes a backend powered by Node.js and Express. Even python module is also build for python specifc email provider detection.
 
 ## Features
 
